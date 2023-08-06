@@ -5,7 +5,8 @@ function App() {
 
   return (
     <>
-     <header id="header">
+    
+  <header id="header">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjqvprPWkD0AFap-C4otTt98AQSyRqS7mDNA&usqp=CAU" alt="apple logo" id="header-img"><h1>AirPods</h1>
     <nav id="nav-bar">
       <ul>
