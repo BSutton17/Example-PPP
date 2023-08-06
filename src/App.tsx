@@ -19,8 +19,8 @@ function App() {
   <main>
     <body>
     <h2 id="features">Introducing the Airpods 2, Airpods 3, and Airpod Pro</h2>
-    <form id="form" action="https://www.freecodecamp.com/email-submit"/>
-      <input id="email" name="email" type="email" placeholder="Enter email here">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" name="email" type="email" placeholder="Enter email here"/>
     <input id="submit" type="submit" value="Get Started" />
     </form>
     <div>
