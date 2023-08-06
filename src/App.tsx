@@ -10,9 +10,9 @@ function App() {
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjqvprPWkD0AFap-C4otTt98AQSyRqS7mDNA&usqp=CAU" alt="apple logo" id="header-img"/><h1>AirPods</h1>
     <nav id="nav-bar">
       <ul>
-        <li><a class="nav-link" href="#features">Features</a></li>
-        <li><a class="nav-link" href="#video">Comparison</a></li>
-        <li><a class="nav-link" href="#pricing">Order Now</a></li>
+        <li><a className="nav-link" href="#features">Features</a></li>
+        <li><a className="nav-link" href="#video">Comparison</a></li>
+        <li><a className="nav-link" href="#pricing">Order Now</a></li>
       </ul>
     </nav>
   </header>
@@ -25,12 +25,12 @@ function App() {
     </form>
     <div>
     <ul>
-      <p class="heading"> Airpods 2</p>
-      <li class="description">"With plenty of talk and listen time, voice-activated Siri access, and an available wireless charging case, AirPods 2 deliver an incredible wireless headphone experience."</li>
-      <p class="heading"> Airpods 3</p>
-      <li class="description">"Personalized Spatial Audio with dynamic head tracking places sounds all around you to create a three-dimensional listening experience for music, TV shows, movies, and more — immersing you in sounds from every direction so it feels like you’re in your very own concert hall or theater."</li>
-      <p class="heading"> Airpods Pros</p>
-      <li class="description">"AirPods Pro take the listening experience to a new level of individuality. Personalized Spatial Audio with dynamic head tracking works with all your devices to immerse you deeper in all-around-you sound."</li>
+      <p className="heading"> Airpods 2</p>
+      <li className="description">"With plenty of talk and listen time, voice-activated Siri access, and an available wireless charging case, AirPods 2 deliver an incredible wireless headphone experience."</li>
+      <p className="heading"> Airpods 3</p>
+      <li className="description">"Personalized Spatial Audio with dynamic head tracking places sounds all around you to create a three-dimensional listening experience for music, TV shows, movies, and more — immersing you in sounds from every direction so it feels like you’re in your very own concert hall or theater."</li>
+      <p className="heading"> Airpods Pros</p>
+      <li className="description">"AirPods Pro take the listening experience to a new level of individuality. Personalized Spatial Audio with dynamic head tracking works with all your devices to immerse you deeper in all-around-you sound."</li>
     </ul>
     </div>
        <h2> Learn More </h2>
@@ -38,25 +38,25 @@ function App() {
 src="https://www.youtube.com/embed/TBTgQbjRsqg">
 </iframe>
 <section id="pricing">
-    <div class="outer">
-      <div class="inner">
-          <p class="purchase">Airpods 2</p>
+    <div className="outer">
+      <div className="inner">
+          <p className="purchase">Airpods 2</p>
       </div>
       <p>Airpod (2nd genration)</p>
       <p>Starting at $129</p>
       <button type="button">Select</button>
     </div>
-    <div class="outer">
-      <div class="inner">
-          <p class="purchase">Airpods 3</p>
+    <div className="outer">
+      <div className="inner">
+          <p className="purchase">Airpods 3</p>
       </div>
       <p>Airpod (3rd genration)</p>
       <p>Starting at $149</p>
       <button type="button">Select</button>
     </div>
-     <div class="outer">
-      <div class="inner">
-          <p class="purchase">Airpod Pros</p>
+     <div className="outer">
+      <div className="inner">
+          <p className="purchase">Airpod Pros</p>
       </div>
       <p>Airpod Pros</p>
       <p>Starting at $249</p>
