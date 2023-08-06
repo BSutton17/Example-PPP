@@ -7,7 +7,7 @@ function App() {
     <>
     
   <header id="header">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjqvprPWkD0AFap-C4otTt98AQSyRqS7mDNA&usqp=CAU" alt="apple logo" id="header-img"><h1>AirPods</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjqvprPWkD0AFap-C4otTt98AQSyRqS7mDNA&usqp=CAU" alt="apple logo" id="header-img"/><h1>AirPods</h1>
     <nav id="nav-bar">
       <ul>
         <li><a class="nav-link" href="#features">Features</a></li>
@@ -19,7 +19,7 @@ function App() {
   <main>
     <body>
     <h2 id="features">Introducing the Airpods 2, Airpods 3, and Airpod Pro</h2>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <form id="form" action="https://www.freecodecamp.com/email-submit"/>
       <input id="email" name="email" type="email" placeholder="Enter email here">
     <input id="submit" type="submit" value="Get Started" />
     </form>
